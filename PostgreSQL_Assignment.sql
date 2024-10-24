@@ -57,3 +57,9 @@ VALUES
     (2, 1),
     (3, 2);
 
+
+-- Query 1: Insert a new student record
+INSERT INTO students 
+    (student_name, age, email, frontend_mark, backend_mark, status)
+VALUES
+    ('Rahad', 20, 'rahadullah10@gmail.com', 55, 60, NULL);
