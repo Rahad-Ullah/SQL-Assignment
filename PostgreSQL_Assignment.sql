@@ -105,3 +105,8 @@ SELECT c.course_name, COUNT(e.student_id) AS students_enrolled
 FROM courses c
 LEFT JOIN enrollment e ON c.course_id = e.course_id
 GROUP BY c.course_name
+
+
+-- Query 7: Calculate and display the average age of all students.
+SELECT AVG(age) AS average_age
+FROM students
